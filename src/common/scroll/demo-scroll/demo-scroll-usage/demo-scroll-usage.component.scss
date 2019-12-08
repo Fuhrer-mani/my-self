@@ -1,0 +1,22 @@
+:host {
+    transition: scroll-behavior 500ms ease-in;
+    scroll-behavior: smooth;
+}
+
+.extra {
+    transition: font-size 500ms ease-in;
+    height: 2rem;
+    background-color: lavender;
+    font-size: 2rem;
+
+}
+
+.apple {
+    will-change: transform
+}
+
+.item {
+    transition: font-size 500ms ease-in;
+    height: 100px;
+    border: 2px solid red;
+}

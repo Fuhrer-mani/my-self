@@ -1,0 +1,7 @@
+
+<div style="height: 500px;">
+    <p *ngFor="let i of demoRange; index as j"
+    class="d-flex apple justify-content-center align-items-center item"
+    [ngClass]="{'extra': j === active}"
+    > {{j}}demo-scroll-usage works!</p> 
+</div>
