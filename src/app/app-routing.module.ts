@@ -6,6 +6,11 @@ import { DemoScrollUsageComponent } from '@common/scroll/demo-scroll/demo-scroll
 
 const routes: Routes = [
   {
+    path: '',
+    redirectTo: 'scroll',
+    pathMatch: 'full'
+  },
+  {
     path: 'scroll',
     component: DemoScrollComponent
   },
